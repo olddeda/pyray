@@ -15,15 +15,15 @@ including rich content like text, images, HTML, and formatted dumps — all with
 ## Installation
 
 ```bash
-pip install pyray
+pip install pyrayapp
 ```
 
 ## Usage
 
 ```python
-from pyray import ray
+from pyrayapp import ray
 
-ray("Hello from Python!")     .color("green")     .notify("Payload sent!")     .pause()
+ray("Hello from Python!").color("green").notify("Payload sent!").pause()
 ```
 
 ## License

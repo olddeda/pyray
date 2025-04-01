@@ -1,5 +1,5 @@
 [project]
-name = "pyray"
+name = "pyrayapp"
 version = "1.0.0"
 description = "Python Ray debug client"
 authors = [{ name = "Sergey Safronov", email = "safronov.ser@icloud.com" }]
@@ -15,4 +15,4 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-where = ["pyray"]
+where = ["pyrayapp"]
